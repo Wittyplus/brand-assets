@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Firma Witty+</title></head><body style="margin:40px;background:#fff;font-family:Arial,sans-serif;"><button onclick="copiarFirma()" style="background:#5BC8F2;color:#fff;border:0;border-radius:8px;padding:12px 20px;font-size:15px;cursor:pointer;margin-bottom:30px;">Copiar firma</button> <span id="ok" style="color:#0F3B57;"></span><div id="firma"><table cellpadding="0" cellspacing="0" border="0" style="font-family:Arial,Helvetica,sans-serif;color:#0F3B57;border-collapse:collapse;">
+  <tr>
+    <td style="padding:0 18px 0 0;vertical-align:middle;">
+      <a href="https://wittyplus.com.co" style="text-decoration:none;"><img src="https://raw.githubusercontent.com/Wittyplus/brand-assets/main/firma-email/witty-firma-logo.png" width="180" alt="Witty+" style="display:block;width:180px;height:auto;border:0;"></a>
+    </td>
+    <td style="border-left:3px solid #5BC8F2;padding:2px 0 2px 18px;vertical-align:middle;">
+      <div style="font-size:16px;font-weight:bold;line-height:22px;color:#0F3B57;">Yesid Bernal</div>
+      <div style="font-size:13px;line-height:20px;color:#5BC8F2;font-weight:bold;">Ingeniero de Software</div>
+      <div style="font-size:13px;line-height:20px;padding-top:6px;color:#4A5A66;">
+        <a href="mailto:ybernal@wittyplus.com.co" style="color:#4A5A66;text-decoration:none;">ybernal@wittyplus.com.co</a><br>
+        <span>(606) 983-2418</span><br>
+        <a href="https://wittyplus.com.co" style="color:#0F3B57;text-decoration:none;font-weight:bold;">wittyplus.com.co</a>
+      </div>
+    </td>
+  </tr>
+</table></div><script>
+function copiarFirma(){var el=document.getElementById("firma");var r=document.createRange();r.selectNodeContents(el);var s=window.getSelection();s.removeAllRanges();s.addRange(r);document.execCommand("copy");s.removeAllRanges();document.getElementById("ok").textContent="Copiada. Ahora pégala (Cmd+V) en el cuadro de firma de Outlook.";}
+</script></body></html>
